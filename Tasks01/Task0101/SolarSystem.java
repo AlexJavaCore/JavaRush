@@ -1,4 +1,3 @@
-
 /*
 Солнечная система — наш дом
 */
@@ -14,6 +13,5 @@ public class SolarSystem {
     public static String starName = "Солнце";
 
     public static int galacticCenterDistance = 27170;
-
 
 }
