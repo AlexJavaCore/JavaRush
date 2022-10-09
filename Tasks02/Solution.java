@@ -5,7 +5,6 @@
 Äëÿ ñîçäàíèÿ îáúåêòîâ-îáåðòîê èñïîëüçóé ìåòîä Òèï.valueOf(ïðèìèòèâ).
 Ïðèìåð ïåðåìåííîé îáúåêòà-îáåðòêè: Integer integerValueBox = ....;
 */
-
 public class Solution {
     byte byteValue;
     short shortValue;
