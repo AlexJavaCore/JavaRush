@@ -1,18 +1,18 @@
 /*
-Анализ строк
-Реализуй методы countDigits(String), countLetters(String),
-countSpaces(String), которые должны возвращать количество цифр,
-букв и пробелов в строке. Метод main не принимает участия в проверке.
+РђРЅР°Р»РёР· СЃС‚СЂРѕРє
+Р РµР°Р»РёР·СѓР№ РјРµС‚РѕРґС‹ countDigits(String), countLetters(String),
+countSpaces(String), РєРѕС‚РѕСЂС‹Рµ РґРѕР»Р¶РЅС‹ РІРѕР·РІСЂР°С‰Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ,
+Р±СѓРєРІ Рё РїСЂРѕР±РµР»РѕРІ РІ СЃС‚СЂРѕРєРµ. РњРµС‚РѕРґ main РЅРµ РїСЂРёРЅРёРјР°РµС‚ СѓС‡Р°СЃС‚РёСЏ РІ РїСЂРѕРІРµСЂРєРµ.
 */
 
 public class Solution {
     public static void main(String[] args) {
-        String string = "Думаю, это будет новой фичей." +
-                "Только не говорите никому, что она возникла случайно.";
+        String string = "Р”СѓРјР°СЋ, СЌС‚Рѕ Р±СѓРґРµС‚ РЅРѕРІРѕР№ С„РёС‡РµР№." +
+                "РўРѕР»СЊРєРѕ РЅРµ РіРѕРІРѕСЂРёС‚Рµ РЅРёРєРѕРјСѓ, С‡С‚Рѕ РѕРЅР° РІРѕР·РЅРёРєР»Р° СЃР»СѓС‡Р°Р№РЅРѕ.";
 
-        System.out.println("Количество цифр в строке : " + countDigits(string));
-        System.out.println("Количество букв в строке : " + countLetters(string));
-        System.out.println("Количество пробелов в строке : " + countSpaces(string));
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ РІ СЃС‚СЂРѕРєРµ : " + countDigits(string));
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СѓРєРІ РІ СЃС‚СЂРѕРєРµ : " + countLetters(string));
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕР±РµР»РѕРІ РІ СЃС‚СЂРѕРєРµ : " + countSpaces(string));
     }
 
     public static int countDigits(String string) {
