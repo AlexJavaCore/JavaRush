@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 
 /* 
-Бухгалтерия
-В классе Solution есть список сотрудников waitingEmployees,
-которые ждут зарплату, и список сотрудников alreadyGotSalaryEmployees,
-которые её уже получили. Необходимо реализовать метод paySalary(String),
-который в качестве аргумента принимает имя сотрудника, желающего получить зарплату.
-Метод должен проверить наличие сотрудника в списке waitingEmployees,
-и если он не получал зарплату, выдать её:
-Если параметр метода paySalary(String) равняется null, ничего не нужно делать.
-Добавить имя сотрудника в список alreadyGotSalaryEmployees.
-В списке waitingEmployees заменить имя сотрудника на null.
+Р‘СѓС…РіР°Р»С‚РµСЂРёСЏ
+Р’ РєР»Р°СЃСЃРµ Solution РµСЃС‚СЊ СЃРїРёСЃРѕРє СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ waitingEmployees,
+РєРѕС‚РѕСЂС‹Рµ Р¶РґСѓС‚ Р·Р°СЂРїР»Р°С‚Сѓ, Рё СЃРїРёСЃРѕРє СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ alreadyGotSalaryEmployees,
+РєРѕС‚РѕСЂС‹Рµ РµС‘ СѓР¶Рµ РїРѕР»СѓС‡РёР»Рё. РќРµРѕР±С…РѕРґРёРјРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ РјРµС‚РѕРґ paySalary(String),
+РєРѕС‚РѕСЂС‹Р№ РІ РєР°С‡РµСЃС‚РІРµ Р°СЂРіСѓРјРµРЅС‚Р° РїСЂРёРЅРёРјР°РµС‚ РёРјСЏ СЃРѕС‚СЂСѓРґРЅРёРєР°, Р¶РµР»Р°СЋС‰РµРіРѕ РїРѕР»СѓС‡РёС‚СЊ Р·Р°СЂРїР»Р°С‚Сѓ.
+РњРµС‚РѕРґ РґРѕР»Р¶РµРЅ РїСЂРѕРІРµСЂРёС‚СЊ РЅР°Р»РёС‡РёРµ СЃРѕС‚СЂСѓРґРЅРёРєР° РІ СЃРїРёСЃРєРµ waitingEmployees,
+Рё РµСЃР»Рё РѕРЅ РЅРµ РїРѕР»СѓС‡Р°Р» Р·Р°СЂРїР»Р°С‚Сѓ, РІС‹РґР°С‚СЊ РµС‘:
+Р•СЃР»Рё РїР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР° paySalary(String) СЂР°РІРЅСЏРµС‚СЃСЏ null, РЅРёС‡РµРіРѕ РЅРµ РЅСѓР¶РЅРѕ РґРµР»Р°С‚СЊ.
+Р”РѕР±Р°РІРёС‚СЊ РёРјСЏ СЃРѕС‚СЂСѓРґРЅРёРєР° РІ СЃРїРёСЃРѕРє alreadyGotSalaryEmployees.
+Р’ СЃРїРёСЃРєРµ waitingEmployees Р·Р°РјРµРЅРёС‚СЊ РёРјСЏ СЃРѕС‚СЂСѓРґРЅРёРєР° РЅР° null.
 */
 
 public class Solution {
@@ -18,13 +18,13 @@ public class Solution {
     public static ArrayList<String> alreadyGotSalaryEmployees = new ArrayList<>();
 
     public static void initEmployees() {
-        waitingEmployees.add("Гвинно");
-        waitingEmployees.add("Гунигерд");
-        waitingEmployees.add("Боргелейф");
-        waitingEmployees.add("Нифрод");
-        waitingEmployees.add("Альбиуф");
-        waitingEmployees.add("Иногрим");
-        waitingEmployees.add("Фриле");
+        waitingEmployees.add("Р“РІРёРЅРЅРѕ");
+        waitingEmployees.add("Р“СѓРЅРёРіРµСЂРґ");
+        waitingEmployees.add("Р‘РѕСЂРіРµР»РµР№С„");
+        waitingEmployees.add("РќРёС„СЂРѕРґ");
+        waitingEmployees.add("РђР»СЊР±РёСѓС„");
+        waitingEmployees.add("РРЅРѕРіСЂРёРј");
+        waitingEmployees.add("Р¤СЂРёР»Рµ");
     }
 
     public static void main(String[] args) {
