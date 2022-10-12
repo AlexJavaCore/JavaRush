@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /*
-Прощай, Паскаль
-В методе main найди и удали язык программирования Pascal из списка programmingLanguages.
+РџСЂРѕС‰Р°Р№, РџР°СЃРєР°Р»СЊ
+Р’ РјРµС‚РѕРґРµ main РЅР°Р№РґРё Рё СѓРґР°Р»Рё СЏР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ Pascal РёР· СЃРїРёСЃРєР° programmingLanguages.
 */
 
 public class Solution {
