@@ -55,3 +55,4 @@ public class Solution {
         System.out.println("Другой тип данных");
     }
 }
+
