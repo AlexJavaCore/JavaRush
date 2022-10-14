@@ -3,12 +3,12 @@ import java.util.*;
 
 /*
 Shine bright like a diamond
-The main method creates objects of different types.
-In some cases, you can omit the type of the object's
-elements and simply use the diamond(<>) operator.
-Change the element type of the object to the diamond operator
-where possible without changing the left side of the expressions.
-The order of the variables must not change.
+В методе main создаются объекты разных типов.
+В некоторых случаях тип элементов объекта можно опустить
+и просто использовать оператор diamond(<>).
+Замени тип элементов объекта на оператор diamond там,
+где это возможно, не меняя левую часть выражений.
+Порядок следования переменных не должен меняться.
 */
 
 public class Solution {
