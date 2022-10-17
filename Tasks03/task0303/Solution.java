@@ -29,4 +29,3 @@ public class Solution {
         return new HashSet<String>(Arrays.asList(strings));
     }
 }
-
