@@ -3,7 +3,6 @@ package com.javarush.task.pro.task13.task1311;
 import java.util.HashMap;
 import java.util.Map;
 
-
 /* 
 Успеваемость студентов-3
 В классе Solution объявлено поле grades типа HashMap<String, Double>,
