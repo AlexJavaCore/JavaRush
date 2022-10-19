@@ -30,5 +30,4 @@ public class Solution {
         programmingLanguages.put(7,"C++");
         return programmingLanguages;
     }
-
 }
