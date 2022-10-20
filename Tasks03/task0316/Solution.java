@@ -26,3 +26,4 @@ public class Solution {
         System.out.println(stringsLinkedList.get(4)); // 5
     }
 }
+
