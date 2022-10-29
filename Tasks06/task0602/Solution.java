@@ -20,7 +20,8 @@ public class Solution {
         } catch (Exception e) {
             System.out.println("Something went wrong : " + e);
         }finally {
-            scanner.close();
+            if(scanner != null)
+                scanner.close();
         }
     }
 }
