@@ -28,11 +28,8 @@ public class Solution {
 
     static LocalDateTime changeZone(LocalDateTime fromDateTime, ZoneId fromZone, ZoneId toZone) {
 
-        ZoneId zone = fromZone;
-        ZonedDateTime zdt = ZonedDateTime.of(fromDateTime, zone);
-
-        ZoneId zone2 = toZone;
-        ZonedDateTime zdt2 = zdt.withZoneSameInstant(zone2);
+        ZonedDateTime zdt = ZonedDateTime.of(fromDateTime, fromZone);
+        ZonedDateTime zdt2 = zdt.withZoneSameInstant(toZone);
 
         return zdt2.toLocalDateTime();
     }
