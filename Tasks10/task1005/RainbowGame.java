@@ -19,7 +19,6 @@ Color.GREEN
 Color.BLUE
 Color.INDIGO
 Color.VIOLET
-
 */
 
 public class RainbowGame extends Game {
