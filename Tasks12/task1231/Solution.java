@@ -5,8 +5,6 @@ package com.javarush.task.task12.task1231;
 Необходимо расставить правильно ключевые слова abstract,
 чтобы программа компилировалась.
 Добавь там, где нужно, и удали там, где они не нужны.
-
-
 */
 
 public class Solution {
@@ -35,5 +33,4 @@ public class Solution {
     public static abstract class SwimmingPegasus extends Pegasus {
         public abstract void swim();
     }
-
 }
